@@ -1,0 +1,3 @@
+[submodule "deep/jdb"]
+	path = deep/jdb
+	url = ../jdb
