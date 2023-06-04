@@ -1,3 +1,9 @@
 [submodule "deep/jdb"]
 	path = deep/jdb
 	url = ../jdb
+[submodule "wsound/gather"]
+	path = wsound/gather
+	url = ../gather
+[submodule "wsound/dzr"]
+	path = wsound/dzr
+	url = ../dzr
