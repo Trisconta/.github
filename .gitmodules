@@ -7,3 +7,9 @@
 [submodule "wsound/dzr"]
 	path = wsound/dzr
 	url = ../dzr
+[submodule "deep/dipmaps"]
+	path = deep/dipmaps
+	url = ../dipmaps
+[submodule "deep/diplomacy"]
+	path = deep/diplomacy
+	url = ../diplomacy
