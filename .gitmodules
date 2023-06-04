@@ -13,3 +13,6 @@
 [submodule "deep/diplomacy"]
 	path = deep/diplomacy
 	url = ../diplomacy
+[submodule "predio"]
+	path = predio
+	url = ../predio
