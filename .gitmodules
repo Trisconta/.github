@@ -16,3 +16,6 @@
 [submodule "predio"]
 	path = predio
 	url = ../predio
+[submodule "hmdb"]
+	path = hmdb
+	url = ../hmdb
