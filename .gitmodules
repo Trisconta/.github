@@ -19,3 +19,6 @@
 [submodule "hmdb"]
 	path = hmdb
 	url = ../hmdb
+[submodule "other/obsolete"]
+	path = other/obsolete
+	url = ../obsolete
