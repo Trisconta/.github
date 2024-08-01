@@ -25,3 +25,6 @@
 [submodule "deep/bank-info"]
 	path = deep/bank-info
 	url = ../bank-info
+[submodule "ext/cpython"]
+	path = ext/cpython
+	url = ../cpython
