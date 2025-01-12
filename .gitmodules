@@ -3,28 +3,31 @@
 	url = ../jdb
 [submodule "wsound/gather"]
 	path = wsound/gather
-	url = ../gather
+	url = ../gather.git
 [submodule "wsound/dzr"]
 	path = wsound/dzr
-	url = ../dzr
+	url = ../dzr.git
 [submodule "deep/dipmaps"]
 	path = deep/dipmaps
-	url = ../dipmaps
+	url = ../dipmaps.git
 [submodule "deep/diplomacy"]
 	path = deep/diplomacy
-	url = ../diplomacy
+	url = ../diplomacy.git
 [submodule "predio"]
 	path = predio
-	url = ../predio
+	url = ../predio.git
 [submodule "hmdb"]
 	path = hmdb
-	url = ../hmdb
+	url = ../hmdb.git
 [submodule "other/obsolete"]
 	path = other/obsolete
-	url = ../obsolete
+	url = ../obsolete.git
 [submodule "deep/bank-info"]
 	path = deep/bank-info
-	url = ../bank-info
+	url = ../bank-info.git
 [submodule "ext/cpython"]
 	path = ext/cpython
-	url = ../cpython
+	url = ../cpython.git
+[submodule "condo40"]
+	path = condo40
+	url = ../condo40.git
