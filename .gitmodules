@@ -1,6 +1,6 @@
 [submodule "deep/jdb"]
 	path = deep/jdb
-	url = ../jdb
+	url = ../jdb.git
 [submodule "wsound/gather"]
 	path = wsound/gather
 	url = ../gather.git
