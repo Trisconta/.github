@@ -19,9 +19,6 @@
 [submodule "hmdb"]
 	path = hmdb
 	url = ../hmdb.git
-[submodule "other/obsolete"]
-	path = other/obsolete
-	url = ../obsolete.git
 [submodule "deep/bank-info"]
 	path = deep/bank-info
 	url = ../bank-info.git
