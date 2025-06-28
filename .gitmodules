@@ -28,3 +28,6 @@
 [submodule "condo40"]
 	path = condo40
 	url = ../condo40.git
+[submodule "other"]
+	path = other
+	url = ../other.git
