@@ -22,9 +22,6 @@
 [submodule "deep/bank-info"]
 	path = deep/bank-info
 	url = ../bank-info.git
-[submodule "ext/cpython"]
-	path = ext/cpython
-	url = ../cpython.git
 [submodule "condo40"]
 	path = condo40
 	url = ../condo40.git
