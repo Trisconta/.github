@@ -28,3 +28,6 @@
 [submodule "other"]
 	path = other
 	url = ../other.git
+[submodule "univ-gather"]
+	path = univ-gather
+	url = ../univ-gather.git
