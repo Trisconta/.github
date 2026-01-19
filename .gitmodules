@@ -31,3 +31,6 @@
 [submodule "univ-gather"]
 	path = univ-gather
 	url = ../univ-gather.git
+[submodule "deep/pyxlconta"]
+	path = deep/pyxlconta
+	url = ../pyxlconta.git
