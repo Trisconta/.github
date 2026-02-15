@@ -34,3 +34,6 @@
 [submodule "deep/pyxlconta"]
 	path = deep/pyxlconta
 	url = ../pyxlconta.git
+[submodule "wsound/sound-creative"]
+	path = wsound/sound-creative
+	url = ../sound-creative.git
