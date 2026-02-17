@@ -37,3 +37,6 @@
 [submodule "wsound/sound-creative"]
 	path = wsound/sound-creative
 	url = ../sound-creative.git
+[submodule "bank-ai"]
+	path = bank-ai
+	url = ../bank-ai.git
