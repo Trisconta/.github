@@ -133,7 +133,7 @@ def loaded_submodules(start_paths: list):
     loaded = set()
     stack = list(start_paths)
     dct = {
-        "root": [],
+        "root": {},
         "ref": {},
     }
     while stack:
@@ -146,7 +146,7 @@ def loaded_submodules(start_paths: list):
         # Look for nested .gitmodules
         nested_gitmodules = p / ".gitmodules"
         if nested_gitmodules.exists():
-            dct["root"].append((path, None))
+            dct["root"][path] = []
             config = configparser.ConfigParser()
             config.read(nested_gitmodules)
             for section in sorted(config.sections()):
@@ -155,10 +155,9 @@ def loaded_submodules(start_paths: list):
                 nested_path = config[section]["path"]
                 full_nested_path = f"{path}/{nested_path}"
                 stack.append(full_nested_path)
-                dct["root"].append((path, nested_path))
+                dct["root"][path].append((path, nested_path))
         else:
             assert path not in dct["ref"], f"Duplicate? {path}"
-            dct["root"].append((path, ""))
             a_len = len(dct["ref"])
             dct["ref"][path] = a_len + 1
     return (loaded, dct)
@@ -270,12 +269,13 @@ def command_e():
     tup = loaded_submodules(first_level)
     _, dct = tup
     act = dct["root"]
-    for left, right in act:
-        if right is None:
-            print(left, "-->")
-        else:
-            if right:
-                print(left, right)
+    for key in sorted(act):
+        item = act[key]
+        print(key, "-->")
+        for tup in item:
+            _, path = tup
+            left = f"{'_' * len(key)}"
+            print(left, path)
     #for key, right in dct["ref"].items(): print("REF:", key, right)
     return "", tup
 
