@@ -1,3 +1,9 @@
+## Development
+
+Submodules update,
+- `git submodule foreach --recursive "(git remote -v ; git commit -a -m myupdate; echo ___^; echo ...)"`
+
+
 ## wsound/gather/external/dzr-plays/lists
 
 ### Excercising dzdata using `load_dbz.py`
