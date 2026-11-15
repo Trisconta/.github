@@ -34,3 +34,6 @@
 [submodule "bank-ai"]
 	path = bank-ai
 	url = ../bank-ai.git
+[submodule "deep/fastexcel"]
+	path = deep/fastexcel
+	url = ../fastexcel.git
